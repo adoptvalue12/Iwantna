@@ -188,7 +188,7 @@ local creditLabel = Instance.new("TextLabel")
 creditLabel.Size = UDim2.new(1, 0, 0, 14)
 creditLabel.Position = UDim2.new(0, 0, 1, -18)
 creditLabel.BackgroundTransparency = 1
-creditLabel.Text = "discord.gg/K92JgMUnCG"
+creditLabel.Text = "yuno le boss"
 creditLabel.TextColor3 = Color3.fromRGB(255, 150, 150)
 creditLabel.TextScaled = true
 creditLabel.Font = Enum.Font.GothamSemibold
@@ -345,7 +345,7 @@ local function toggleMinimize()
         glow.Size = UDim2.new(1.08, 0, 1.12, 0)
         glow.Position = UDim2.new(-0.04, 0, -0.06, 0)
 
-        title.Text = "KEVIN"
+        title.Text = "Yuno farm"
         title.Position = UDim2.new(0, 12, 0, 0)
         title.Size = UDim2.new(0.8, 0, 1, 0)
         title.TextScaled = true
