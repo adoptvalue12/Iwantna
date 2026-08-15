@@ -1,16 +1,3 @@
-if _G.EmoteFling_GlobalCleanup then
-    pcall(function() _G.EmoteFling_GlobalCleanup() end)
-end
-
-local success, VaporLens = pcall(function()
-    return loadstring(game:HttpGet("https://raw.githubusercontent.com/noicer/vapor-lib/refs/heads/main/vapor.lua"))()
-end)
-
-if not success or not VaporLens then
-    warn("EmoteFling | Failed to load Vapor Library")
-    return
-end
-
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local HttpService = game:GetService("HttpService")
